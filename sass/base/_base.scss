@@ -1,0 +1,44 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  //defines what 1rem is
+  //1rem = 10px
+  font-size: 62.5%;
+
+  //order media quesries from big to small
+  //if you are coding from desktop to mobile (max-width)
+  //if it's mobile to desktop, small to big (min-width)
+
+  @include respond(big-desktop) {
+    //1rem = 9px, 12/16
+    font-size: 75%;
+  }
+  @include respond(tab-land) {
+    //1rem = 9px, 9/16
+    font-size: 56.25%;
+  }
+  @include respond(tab-port) {
+    //1rem = 8px, 8/16
+    font-size: 50%;
+  }
+}
+
+body {
+  box-sizing: border-box;
+  padding: 3rem;
+
+  @include respond(tab-port) {
+    padding: 0;
+  }
+}
+
+::selection {
+  background-color: $color-primary;
+  color: $color-white;
+}
