@@ -1,11 +1,7 @@
-# Shuriken Pro League Landing Page
+# Boilerplate HTML/SCSS
 
-This is a landing page I created off of a design template from Canva
+This repo is used to clone a boilerplate file structure for creating basic web pages with HTML and SCSS
+There is also a proper SCSS file architecture implemented
 
-## Running Project Locally
-
-If you plan on working on this project further, there is a script command for running the project locally and automatically compiling the SCSS to CSS.
-Run 'npm run start' to run the live server locally and then have the SCSS compiler running
-
-I will be referencing back to this project a lot.
-Jonas! If I meet you in person someday, I'm buying you a round of beers!
+node-sass is used to compile your SCSS down to a single page of CSS that is then imported into the HTML file
+Check the package.json for the commands you can use to compile your SCSS to CSS
