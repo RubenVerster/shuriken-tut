@@ -1,6 +1,6 @@
 # Shuriken Pro League Landing Page
 
-This is a landing page I created off of a sesign template from Canva
+This is a landing page I created off of a design template from Canva
 
 ## Running Project Locally
 
