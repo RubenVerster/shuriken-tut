@@ -21,13 +21,37 @@ html {
 
 body {
   box-sizing: border-box;
-  padding: 3rem; }
-  @media only screen and (max-width: 56.25em) {
-    body {
-      padding: 0; } }
+  padding: 0;
+  margin: 0;
+  background-image: linear-gradient(-45deg, #3d1472 0%, #3d1472 55%, #280a50 55%);
+  height: 100vh;
+  width: 100vw; }
 
 ::selection {
   background-color: transparent; }
+
+.heading-primary {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 9rem;
+  text-align: center;
+  font-family: 'Fjalla One';
+  line-height: 0.9;
+  letter-spacing: 10px; }
+  @media only screen and (max-width: 37.5em) {
+    .heading-primary {
+      font-size: 5rem; } }
+
+.heading-secondary {
+  font-family: 'Nanum Brush Script';
+  font-size: 4.2rem;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 2px;
+  text-align: center; }
+  @media only screen and (max-width: 37.5em) {
+    .heading-secondary {
+      font-size: 2.7rem; } }
 
 .container {
   height: 100%;
