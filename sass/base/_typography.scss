@@ -1,0 +1,27 @@
+.heading-primary {
+  color: $color-white;
+  text-transform: uppercase;
+  font-size: 9rem;
+  text-align: center;
+  font-family: 'Fjalla One';
+  line-height: 0.9;
+  letter-spacing: 10px;
+
+  @include respond(phone) {
+    font-size: 5rem;
+  }
+}
+
+.heading-secondary {
+  font-family: 'Nanum Brush Script';
+  font-size: 4.2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: $color-white;
+  letter-spacing: 2px;
+  text-align: center;
+
+  @include respond(phone) {
+    font-size: 2.7rem;
+  }
+}
