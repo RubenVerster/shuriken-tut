@@ -74,7 +74,6 @@ const cleanupWeapons = () => {
   } else {
     mess[0].remove();
   }
-  console.log(mess);
 };
 
 setInterval(() => {
