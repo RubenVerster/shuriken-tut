@@ -39,9 +39,6 @@ body {
       padding: 0; } }
 
 ::selection {
-<<<<<<< HEAD
-  background-color: transparent; }
-=======
   background-color: #3d1472;
   color: #fff; }
 
@@ -51,50 +48,10 @@ body {
   font-size: 16px;
   line-height: 1.7;
   color: #777; }
->>>>>>> parent of 1b0037d... initial app
 
 .heading-primary {
   color: #fff;
   text-transform: uppercase;
-<<<<<<< HEAD
-  font-size: 9rem;
-  text-align: center;
-  font-family: 'Fjalla One';
-  line-height: 0.9;
-  letter-spacing: 10px; }
-  @media only screen and (max-width: 37.5em) {
-    .heading-primary {
-      font-size: 5rem; } }
-
-.heading-secondary {
-  font-family: 'Nanum Brush Script';
-  font-size: 4.2rem;
-  text-transform: uppercase;
-  font-weight: 700;
-  color: #fff;
-  letter-spacing: 2px;
-  text-align: center; }
-  @media only screen and (max-width: 37.5em) {
-    .heading-secondary {
-      font-size: 2.7rem; } }
-
-.container {
-  height: 100%;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  overflow: hidden; }
-  .container .ninja {
-    height: 420px;
-    width: 420px; }
-    @media only screen and (max-width: 37.5em) {
-      .container .ninja {
-        height: 250px;
-        width: 250px; } }
-=======
   margin-bottom: 60px;
   backface-visibility: hidden; }
   .heading-primary--main {
@@ -151,4 +108,20 @@ body {
   font-size: 1.6rem; }
   .paragraph:not(:last-child) {
     margin-bottom: 3rem; }
->>>>>>> parent of 1b0037d... initial app
+
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden; }
+  .container .ninja {
+    height: 420px;
+    width: 420px; }
+    @media only screen and (max-width: 37.5em) {
+      .container .ninja {
+        height: 250px;
+        width: 250px; } }
